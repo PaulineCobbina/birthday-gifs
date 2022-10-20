@@ -1,0 +1,110 @@
+body{
+    font-family: 'Happy Monkey', cursive;
+    text-align: center;
+    background: linear-gradient(skyblue,pink);
+    /*
+    background: #a2d2ff;
+    */
+    color: #ffffff;
+    text-shadow: 0px 0px 1px black;
+}
+#image{
+    border-radius: 50%;
+    border: 10px solid #EFB0C9;
+    width: 250px;
+}
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ #age{
+    background: #EFB0C9;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+#date{
+    background: #EFB0C9;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 0px;
+}
+.first-gift{
+    width: 400px;
+    height: 400px;
+    border: 5px solid white;
+    border-radius: 5px;
+    background-image: url("giftImage.jpg");
+    background-size: cover;
+    margin: 0px auto;
+}
+#first-gift-happy:hover{
+    background-image: url("happy.gif");
+}
+.message{
+    margin-bottom: 0px;
+}
+.hint{
+    margin-top: 10px;
+}
+.gift-section{
+    margin: 30px;
+}
+.second-gift{
+    width: 400px;
+    height: 400px;
+    border: 5px solid white;
+    border-radius: 5px;
+    background-image: url("giftImage1.jpeg");
+    background-size: cover;
+    margin: 0px auto;
+}
+#second-gift-hot:hover{
+    background-image: url("hot.gif");
+}
+.third-gift{
+    width: 400px;
+    height: 400px;
+    border: 5px solid white;
+    border-radius: 5px;
+    background-image: url("giftImage2.jpg");
+    background-size: cover;
+    margin: 0px auto
+}
+#third-gift-genius:hover{
+    background-image: url("genius.webp");
+}
+.fourth-gift{
+    width: 400px;
+    height: 400px;
+    border: 5px solid white;
+    border-radius: 5px;
+    background-image: url("giftImage3.jpg");
+    background-size: cover;
+    margin: 0px auto;
+}
+#fourth-gift-badass:hover{
+    background-image: url("badass.webp");
+}
+
+.fifth-gift{
+    width: 400px;
+    height: 200px;
+    border: 5px solid white;
+    border-radius: 5px;
+    background-image: url("cheers.jpg");
+    background-size: cover;
+    margin: 0px auto;
+}
+#fifth-gift-cheers:hover{
+    background-image: url("cheers.gif");
+}
+#footer{
+    width: 400px;
+    margin: 40px auto 20px;
+    font-style: italic;
+}
+a{
+    color: white;
+}
